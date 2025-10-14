@@ -59,8 +59,7 @@ img {
 
 .sidebar {
 
-    width: 20%;
-    height: 400px;
+    width: 15%;
     overflow-y: scroll;
     
 
@@ -74,8 +73,9 @@ img {
 
 .main {
 
-    width: 80%;
+    width: 85%;
     flex-direction: column;
+
 
 
     /* debug */
@@ -96,10 +96,18 @@ img {
     background-color: blue;
 }
 
+
+.root {
+    height: calc(100% - 200px);
+}
+
+
 /*********************************
 *BOTTOM NAV -section
 **********************************/
 
 .footer {
     background-color: darkgray;
+    height: 100px;
+    overflow-y: scroll;
 }
