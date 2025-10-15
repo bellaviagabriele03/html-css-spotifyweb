@@ -25,6 +25,8 @@ section {
     margin-left: 20px;
 }
 
+
+
 /*****************
 *COMMON
 ******************/
@@ -170,12 +172,16 @@ main {
 }
 
 .col {
-    width: calc(100% / 2 -10px * 1 / 2 );
+   width: calc(100% / 2 - 10px);
+}
 
-    /* debug */
-    /* width: 100px;
-    height: 100px;
-    background-color: chocolate; */
+
+.recently-played h3 {
+    color: white;
+}
+
+.recently-played span {
+    color: gray;
 }
 
 
