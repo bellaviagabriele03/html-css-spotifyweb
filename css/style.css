@@ -14,11 +14,6 @@ img {
 /*****************
 *COMMON
 ******************/
-.container {
-    width: 80%;
-    margin: 0 auto;
-    max-width: 1000px;
-}
 
 .wrapper {
     width: 100%;
@@ -34,10 +29,6 @@ img {
 /*****************
 *UTILITIES
 ******************/
-
-
-
-
 /* FLEXANDO */
 
 .flex {
@@ -48,66 +39,61 @@ img {
     flex-wrap: wrap;
 }
 
+.column {
+    flex-direction: column;
+}
 
+/*****************
+*top section
+******************/
 
+.height-top-section {
 
+    height: calc(100% - 100px);
+}
 
-
-/*********************************
-*SIDEBAR + HEADER + MAIN -section
-**********************************/
 
 .sidebar {
-
-    width: 15%;
-    overflow-y: scroll;
-    
-
+    width: 60px;
 
     /* debug */
     background-color: blueviolet;
-    
-
-}
-
-
-.main {
-
-    width: 85%;
-    flex-direction: column;
-
-
-
-    /* debug */
-    background-color: coral;
-    border: 2px solid black;
 }
 
 .content {
-    /* debug */
-    background-color: cyan;
-}
-
-
-.header {
-    height: 100px;
-
+    width: calc(100% - 60px);
+    
     /* debug */
     background-color: blue;
+    border: 2px solid black;
 }
 
-
-.root {
-    height: calc(100% - 200px);
-}
-
-
-/*********************************
-*BOTTOM NAV -section
-**********************************/
-
-.footer {
-    background-color: darkgray;
+header {
     height: 100px;
-    overflow-y: scroll;
+
+    /* debug */
+    background-color: gold;
 }
+
+main {
+    overflow-y: auto;
+    height: calc(100% - 100px);
+}
+
+
+/*****************
+*bottom section
+******************/
+
+footer {
+
+    height: 100px;
+    background-color: gray;
+}
+
+
+
+
+/*****************
+*UTILITIES
+******************/
