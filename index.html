@@ -5,40 +5,87 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SpotiBoolean</title>
-    <link rel="stylesheet" href="./css/responsive.css">
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
 </head>
 
 <body>
     <div class="wrapper">
         <!-- top section -->
         <div class="flex height-top-section">
-            <div class="sidebar">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem laborum alias sed doloremque
-                perspiciatis, nemo quae illo possimus, impedit voluptatem atque nihil vero. Beatae laudantium eveniet
-                velit! Porro, ea maxime?
+            <div class="sidebar flex column justify-between">
+                <div class="icon flex column">
+                    <img src="./img/logo-small.svg" alt="" class="logo-small">
+                    <img src="./img/logo.svg" alt="" class="logo-large">
+                    <ul class="flex column">
+                        <li class="flex"><img src="./img/home.svg" alt=""><span class="side-text">Home</span></li>
+                        <li class="flex"><img src="./img/search.svg" alt=""><span class="side-text">cerca</span></li>
+                        <li class="flex"><img src="./img/libreria.svg" alt=""><span class="side-text">La Tua
+                                libreria</span></li>
+                    </ul>
+                    <div class="playlist">
+                        <h3 class="m-bottom10">PLAYLIST</h3>
+
+                        <ul class="flex column">
+                            <li>Nome Playlist</li>
+                            <li>Nome Playlist</li>
+                            <li>Nome Playlist</li>
+                            <li>Nome Playlist</li>
+                            <li>Nome Playlist</li>
+                            <li>Nome Playlist</li>
+                            <li>Nome Playlist</li>
+                        </ul>
+                    </div>
+                </div>
+
+
+                <div class="users-menu flex column">
+                    <ul>
+                        <li class="flex align-center"><img src="./img/download.svg" alt=""><span
+                                class="side-text">Installa app</span></li>
+                        <hr class="border-bottom">
+                        <li class="flex align-center"><img src="./img/profile.svg" alt=""><span class="side-text">john
+                                Doe</span></li>
+                    </ul>
+                </div>
+
             </div>
             <div class="content">
-                <header>questo è il mio header</header>
+                <header>
+                    <div class="flex flex-end">
+                        <a class="btn" href="">EFFETTUA L'UPGRADE</a>
+                    </div>
+
+                </header>
                 <main>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius ad debitis doloribus expedita.
-                    Aliquid, vel optio, qui consequatur in cupiditate fugiat quisquam eius ea maiores voluptates! Minus
-                    doloremque sed sit!
-                    Voluptatum nostrum sapiente ipsam aliquam possimus saepe iusto, autem optio repudiandae accusamus
-                    odio dolores quasi maiores porro reiciendis debitis laudantium omnis provident hic vel similique
-                    voluptas ad repellendus. Perferendis, nisi!
-                    Amet, autem quod! Nostrum impedit deserunt fuga, error unde mollitia. Tenetur modi sunt quaerat
-                    dolore. Vel dicta eligendi, saepe, suscipit modi veritatis deserunt aut illum in nulla ea, placeat
-                    ex.
-                    Corrupti repellendus velit asperiores. Voluptatum id ad, molestias facilis eos quibusdam qui at nam
-                    porro tempora aspernatur nemo voluptate? Error consectetur quasi voluptates nostrum recusandae esse
-                    quod fugit assumenda quia.
-                    Nemo illo perferendis voluptate nostrum sed dignissimos ipsam quasi, exercitationem a, odio cum
-                    impedit voluptas illum laboriosam eligendi deserunt fugiat eos neque culpa ducimus placeat. Ipsam
-                    qui quis facere velit.
-                    Tempora, animi cupiditate. Ipsam blanditiis, repellendus cumque ipsum commodi temporibus iure aut
-                    omnis facilis ex possimus hic, deserunt maxime magnam molestiae modi accusantium incidunt harum?
-                    Quisquam quae voluptas exercitationem blanditiis.
+                    <!-- recently played -->
+                    <section class="flex gap10 wrap">
+                        <div class="col"><img src="" alt=""></div>
+                        <div class="col"></div>
+                        <div class="col"></div>
+                        <div class="col"></div>
+                        <div class="col"></div>
+                        <div class="col"></div>
+                    </section>
+                    <!-- end recently played -->
+
+                    <!-- create for you -->
+                    <section class="flex gap10">
+                        <div class="col"></div>
+                        <div class="col"></div>
+                    </section>
+                    <!-- end create for you -->
+
+                    <!-- popolar artist -->
+                    <section class="flex gap10">
+                        <div class="col"></div>
+                        <div class="col"></div>
+                    </section>
+                    <!-- end popolar artist -->
                 </main>
 
             </div>
