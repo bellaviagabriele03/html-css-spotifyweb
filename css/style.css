@@ -86,6 +86,10 @@ li {
     gap: 10px;
 }
 
+.gap20 {
+    gap: 20px;
+}
+
 .flex-end {
     justify-content: flex-end;
 }
@@ -112,6 +116,8 @@ li {
     background-color: black;
     color: white;
 }
+
+
 
 .sidebar ul {
     gap: 10px;
@@ -219,10 +225,24 @@ footer {
 
     height: 100px;
     background-color: rgb(42, 48, 48);
+    color: white;
+    padding: 10px;
 }
 
 
+.song ul li img {
+    width: 40px;
+    height: 40px;
+}
 
+.time-bar {
+    padding: 3px 40px;
+    background-color: white;
+}
+
+.player ul {
+    margin-bottom: 10px;
+}
 
 /*****************
 *UTILITIES
