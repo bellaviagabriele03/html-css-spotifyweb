@@ -21,10 +21,8 @@ a {
 }
 
 section {
-    margin-bottom: 20px;
-    margin-left: 20px;
+    margin-bottom: 10px;
 }
-
 
 
 /*****************
@@ -126,6 +124,7 @@ li {
 .icon ul li span {
     display: none;
 }
+
 .users-menu ul li span {
     display: none;
 
@@ -139,13 +138,12 @@ li {
 .logo-large {
     display: none;
 }
-    
+
 .content {
     width: calc(100% - 50px);
-    
+
     /* debug */
     background-color: rgb(31, 47, 47)
-    
 }
 
 header {
@@ -162,6 +160,7 @@ header {
 main {
     overflow-y: auto;
     height: calc(100% - 60px);
+    padding: 20px;
 }
 
 .btn {
@@ -172,17 +171,44 @@ main {
 }
 
 .col {
-   width: calc(100% / 2 - 10px);
+    width: calc(100% / 2 - 10px);
 }
 
 
 .recently-played h3 {
     color: white;
+
 }
 
 .recently-played span {
     color: gray;
 }
+
+.create-for-you h3 {
+    color: white;
+}
+
+.popolar-artist h3 {
+    color: white;
+}
+
+.nav-top-main ul li {
+    color: white;
+
+}
+
+.nav-top-main ul {
+    justify-content: space-evenly;
+}
+
+main h2 {
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+}
+
+
 
 
 /*****************
