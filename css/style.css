@@ -52,6 +52,20 @@ li {
     display: none;
 }
 
+.m-bot10 {
+    margin-bottom: 10px;
+}
+
+.m-top10 {
+    margin-top: 10px;
+
+}
+
+.m-right10 {
+    margin-right: 10px; 
+}
+
+
 .m-bottom10 {
     margin-bottom: 10px;
 }
@@ -111,13 +125,15 @@ li {
 .sidebar {
     width: 50px;
     padding: 10px;
-
-    /* debug */
     background-color: black;
     color: white;
+    
 }
 
-
+.plus {
+    width: 40px;
+    font-size: 30px;
+}
 
 .sidebar ul {
     gap: 10px;
@@ -158,8 +174,6 @@ header {
     position: sticky;
     top: 0;
     right: 0;
-
-    /* debug */
     background-color: rgb(15, 26, 26);
 }
 
@@ -178,6 +192,7 @@ main {
 
 .col {
     width: calc(100% / 2 - 10px);
+    text-align: center;
 }
 
 
@@ -211,7 +226,7 @@ main h2 {
     color: white;
     margin-top: 10px;
     margin-bottom: 10px;
-    
+
 }
 
 
@@ -231,18 +246,45 @@ footer {
 
 
 .song ul li img {
-    width: 40px;
-    height: 40px;
+
 }
 
 .time-bar {
-    padding: 3px 40px;
+    height: 6px;
+    width: 150px;
+    
+    background-color: gray;
+    border-radius: 10px;
+}
+
+.time-bar-small {
+    height: 6px;
+    width: 80px;
+    background-color: gray;
+    border-radius: 10px;
+}
+
+.progress-bar {
+    height: 100%;
+    width: 40px;
     background-color: white;
 }
 
+
+
 .player ul {
     margin-bottom: 10px;
+    
 }
+
+
+.connection,
+.song {
+    width: 200px;
+}
+
+
+
 
 /*****************
 *UTILITIES

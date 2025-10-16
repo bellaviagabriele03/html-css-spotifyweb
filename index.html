@@ -17,18 +17,25 @@
     <div class="wrapper">
         <!-- top section -->
         <div class="flex height-top-section">
+            <!-- sidebar -->
             <div class="sidebar flex column justify-between">
                 <div class="icon flex column">
                     <img src="./img/logo-small.svg" alt="" class="logo-small">
                     <img src="./img/logo.svg" alt="" class="logo-large">
                     <ul class="flex column">
-                        <li class="flex"><img src="./img/home.svg" alt=""><a href=""><span class="side-text">Home</span></a></li>
-                        <li class="flex"><img src="./img/search.svg" alt=""><a href=""><span class="side-text">cerca</span></a></li>
-                        <li class="flex"><img src="./img/libreria.svg" alt=""><a href=""><span class="side-text">La Tua libreria</span></a></li>
+                        <li class="flex"><img src="./img/home.svg" alt=""><a href=""><span
+                                    class="side-text">Home</span></a></li>
+                        <li class="flex"><img src="./img/search.svg" alt=""><a href=""><span
+                                    class="side-text">cerca</span></a></li>
+                        <li class="flex"><img src="./img/libreria.svg" alt=""><a href=""><span class="side-text">La Tua
+                                    libreria</span></a></li>
                     </ul>
                     <div class="playlist">
                         <h3 class="m-bottom10">PLAYLIST</h3>
-
+                        <div class="flex m-bot10">
+                            <button class="plus m-right10">+</button>
+                            <span>Crea Playlist</span>
+                        </div>
                         <ul class="flex column">
                             <li><a href="">Nome Playlist</a></li>
                             <li><a href="">Nome Playlist</a></li>
@@ -44,17 +51,19 @@
 
                 <div class="users-menu flex column">
                     <ul>
-                        <li class="flex align-center"><img src="./img/download.svg" alt="">
+                        <li class="flex align-center m-bot10"><img src="./img/download.svg" alt="">
                             <a href=""><span class="side-text">Installa app</span></a>
                         </li>
                         <hr class="border-bottom">
-                        <li class="flex align-center"><img src="./img/profile.svg" alt="">
+                        <li class="flex align-center m-top10"><img src="./img/profile.svg" alt="">
                             <a href=""><span class="side-text">john Doe</span></a>
                         </li>
                     </ul>
                 </div>
 
             </div>
+            <!-- end sidebar -->
+
             <div class="content">
                 <header>
                     <div class="flex flex-end">
@@ -161,12 +170,12 @@
         <footer class="flex justify-between align-center">
             <!-- song -->
             <div class="song">
-                <ul class="flex gap10 align-center">
+                <ul class="flex align-center gap10 icone-player">
                     <li><img src="./img/einaudi.jpeg" alt=""></li>
-                    <li>Nuvole Bianche <br>
+                    <li>Nuvole Bianche
                         <span>Ludovico Enaudi</span>
                     </li>
-                    <li class="flex column icone-player"><a href=""><i class="fa-regular fa-heart"></i></a>
+                    <li class="flex column"><a href=""><i class="fa-regular fa-heart"></i></a>
                         <a href=""><i class="fa-solid fa-folder"></i></a>
                     </li>
                     <li></li>
@@ -175,35 +184,43 @@
             <!-- end song -->
 
             <!-- player -->
-            <div class="player">
-                <div class="flex column">
-                    <ul class="flex gap20">
-                        <li><a href=""><i class="fa-solid fa-shuffle"></i></a></li>
-                        <li><a href=""><i class="fa-solid fa-backward"></i></a></li>
-                        <li><a href=""><i class="fa-solid fa-play"></i></a></li>
-                        <li><a href=""><i class="fa-solid fa-forward"></i></a></li>
-                        <li><a href=""><i class="fa-solid fa-arrow-rotate-right"></i></a></li>
-                    </ul>
-                    <ul class="flex gap20">
-                        <li>0:25</li>
-                        <li><div class="time-bar"></div></li>
-                        <li>4:35</li>
-                    </ul>
+            <div class="player flex column">
 
-                </div>
+                <ul class="flex justify-between">
+                    <li><a href=""><i class="fa-solid fa-shuffle"></i></a></li>
+                    <li><a href=""><i class="fa-solid fa-backward"></i></a></li>
+                    <li><a href=""><i class="fa-solid fa-play"></i></a></li>
+                    <li><a href=""><i class="fa-solid fa-forward"></i></a></li>
+                    <li><a href=""><i class="fa-solid fa-arrow-rotate-right"></i></a></li>
+                </ul>
+                <ul class="flex align-center gap10">
+                    <li>0:25</li>
+                    <li>
+                        <div class="time-bar">
+                            <div class="progress-bar"></div>
+                        </div>
+                    </li>
+                    <li>4:35</li>
+                </ul>
+
+
                 <div></div>
             </div>
             <!-- end player -->
 
             <!-- connection -->
-            <!-- <div class="connection">
-                <ul class="flex">
+            <div class="connection">
+                <ul class="flex gap10 align-center icon-connection">
                     <li><a href=""><i class="fa-solid fa-bars"></i></a></li>
                     <li><a href=""></a><i class="fa-solid fa-tv"></i></li>
                     <li><a href=""><i class="fa-solid fa-volume-high"></i></a></li>
-                    <li></li>
+                    <li>
+                        <div class="time-bar-small">
+                            <div class="progress-bar"></div>
+                        </div>
+                    </li>
                 </ul>
-            </div> -->
+            </div>
             <!-- end connection -->
 
 
