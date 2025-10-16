@@ -143,6 +143,7 @@ li {
 .plus {
     width: 40px;
     font-size: 30px;
+    background-color: gray;
 }
 
 .sidebar ul {
@@ -199,7 +200,7 @@ main {
 
 
 .btn {
-    color: gray;
+    color: white;
     border: 1px solid white;
     padding: 5px;
     border-radius: 10px;
@@ -242,6 +243,16 @@ main h2 {
     margin-top: 10px;
     margin-bottom: 10px;
 
+}
+
+.active {
+    color:white;
+}
+
+.border-green {
+    border-left: 3px solid green;
+    border-radius: 10px;
+    border-right: 3px solid green;
 }
 
 

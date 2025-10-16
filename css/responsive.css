@@ -26,6 +26,14 @@
     .song ul li span {
         display: none;
     }
+
+
+    .border-green {
+        border-left: 3px solid green;
+        border-radius: 0px;
+        border-right: none;
+        margin-right: 5px;
+    }
 }
 
 
@@ -80,6 +88,14 @@
 
     .icone-player {
         flex-direction: row;
+    }
+
+    .sidebar li {
+        padding: 5px;
+    }
+
+    .sidebar {
+        overflow-y: auto;
     }
 
 }
