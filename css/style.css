@@ -127,7 +127,7 @@ li {
     padding: 10px;
     background-color: black;
     color: white;
-    
+
 }
 
 .plus {
@@ -182,6 +182,11 @@ main {
     height: calc(100% - 60px);
     padding: 20px;
 }
+
+.popolar-artist .col a img {
+    border-radius: 50%;
+}
+
 
 .btn {
     color: white;
