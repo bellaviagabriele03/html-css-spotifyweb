@@ -35,12 +35,12 @@
 @media screen and (min-width:600px) {
 
     .height-top-section .sidebar {
-        width: 120px;
+        width: 140px;
     }
 
     .height-top-section .content {
 
-        width: calc(100% - 120px);
+        width: calc(100% - 140px);
     }
 
     .sidebar img {

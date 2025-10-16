@@ -70,6 +70,11 @@ li {
     margin-bottom: 10px;
 }
 
+
+.color-white {
+    color: white;
+}
+
 /* FLEXANDO */
 
 .flex {
@@ -95,6 +100,11 @@ li {
 .align-center {
     align-items: center;
 }
+
+.gap5 {
+    gap: 5px;
+}
+
 
 .gap10 {
     gap: 10px;
@@ -126,7 +136,7 @@ li {
     width: 50px;
     padding: 10px;
     background-color: black;
-    color: white;
+    color: gray;
 
 }
 
@@ -136,7 +146,7 @@ li {
 }
 
 .sidebar ul {
-    gap: 10px;
+    gap: 5px;
 }
 
 .logo-small {
@@ -189,7 +199,7 @@ main {
 
 
 .btn {
-    color: white;
+    color: gray;
     border: 1px solid white;
     padding: 5px;
     border-radius: 10px;
